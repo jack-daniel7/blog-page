@@ -12,17 +12,21 @@ body {
 h1 {
     text-align: center;
 }
-#blog-card-resize {
+.blog-card-resize {
     max-width: 360px;
     margin-left: auto;
     margin-right: auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    
 }
 
 #blog-card {
     border: 1px solid gray;
+    border-radius: 2px;
    
-   
-
 }
 
 .blog-card-img>img {
@@ -53,3 +57,19 @@ h1 {
     font-size: 0.9em;
 
 }
+
+@media screen and (min-width:576px) {
+    .blog-card-resize{
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 720px;
+    }
+
+    #blog-card{
+        width: calc((100% - 2px - 2px)/3);
+        
+       
+    }
+  
+}
+
