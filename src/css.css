@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 10px;
+    padding-top: 20px;
+    font-family: "raleway", sans-serif;
+    font-size: 1rem;
+    color: #444444;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+#blog-card-resize {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#blog-card {
+    border: 1px solid gray;
+   
+   
+
+}
+
+.blog-card-img>img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px
+}
+
+#blog-card-description {
+    padding: 6px;
+
+}
+
+.blog-card-title {
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 4px;
+    margin-top: 0px;
+
+}
+
+.blog-card-date {
+    font-size: 1em;
+
+}
+
+.blog-card-likes {
+    font-size: 0.9em;
+
+}
